@@ -1,0 +1,15 @@
+
+:look
+say object_10 "Un trophée."
+ 
+:use
+say object_10 "Vous ne voyez pas comment utiliser ce trophée."
+set_global object_10_taken true
+ 
+:pick_up
+say object_10 "Vous prenez le trophée... ça ne fait pas de vous un vainqueur."
+set_global i/object_10_inv true
+set_active object_10 false
+
+:talk
+say object_10 "Vous économisez votre souffle, car cet objet ne pourra pas vous répondre."

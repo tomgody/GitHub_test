@@ -1,0 +1,52 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://globals/item.gd" type="Script" id=1]
+[ext_resource path="res://my_sprites/sprites_objects/item_09.png" type="Texture" id=2]
+
+[node name="node_objet_09" type="Node2D" index="0"]
+
+position = Vector2( -1, 0 )
+script = ExtResource( 1 )
+animations = null
+speed = 300
+scale_on_map = false
+light_on_map = false
+tooltip = ""
+action = ""
+events_path = "res://my_objects/object_09.esc"
+global_id = "object_09"
+use_combine = false
+inventory = false
+use_action_menu = true
+interact_angle = -1
+talk_animation = "talk"
+active = true
+placeholders = {
+
+}
+use_custom_z = false
+
+[node name="area" type="Control" parent="." index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = -147.0
+margin_top = -123.0
+margin_right = 157.0
+margin_bottom = 151.0
+rect_pivot_offset = Vector2( 0, 0 )
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+
+[node name="item_09" type="Sprite" parent="." index="1"]
+
+position = Vector2( 3.49997, -0.501955 )
+scale = Vector2( 1.09, 1.00369 )
+texture = ExtResource( 2 )
+_sections_unfolded = [ "Animation", "Material", "Offset", "Pause", "Region", "Transform", "Visibility", "Z Index" ]
+
+

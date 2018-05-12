@@ -1,0 +1,14 @@
+
+:look
+say object_09 "Ce lingot n'est pas en or, personne n'en voudra, il est inutile."
+ 
+:use
+say object_09 "Vous ne voyez pas comment utiliser le lingot."
+
+:pick_up
+say object_09 "Vous prenez le lingot."
+set_global i/object_09_inv true
+set_active object_09 false
+
+:talk
+say object_09 "Vous économisez votre souffle, car cet objet ne pourra pas vous répondre."

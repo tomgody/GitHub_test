@@ -1,0 +1,134 @@
+[gd_scene load_steps=17 format=2]
+
+[ext_resource path="res://my_objects/object_11.tscn" type="PackedScene" id=1]
+[ext_resource path="res://my_objects/object_12.tscn" type="PackedScene" id=2]
+[ext_resource path="res://my_objects/object_13.tscn" type="PackedScene" id=3]
+[ext_resource path="res://my_objects/object_14.tscn" type="PackedScene" id=4]
+[ext_resource path="res://my_objects/object_15.tscn" type="PackedScene" id=5]
+[ext_resource path="res://my_objects/object_16.tscn" type="PackedScene" id=6]
+[ext_resource path="res://my_objects/object_01.tscn" type="PackedScene" id=7]
+[ext_resource path="res://my_objects/object_02.tscn" type="PackedScene" id=8]
+[ext_resource path="res://my_objects/object_03.tscn" type="PackedScene" id=9]
+[ext_resource path="res://my_objects/object_04.tscn" type="PackedScene" id=10]
+[ext_resource path="res://my_objects/object_05.tscn" type="PackedScene" id=11]
+[ext_resource path="res://my_objects/object_06.tscn" type="PackedScene" id=12]
+[ext_resource path="res://my_objects/object_07.tscn" type="PackedScene" id=13]
+[ext_resource path="res://my_objects/object_08.tscn" type="PackedScene" id=14]
+[ext_resource path="res://my_objects/object_09.tscn" type="PackedScene" id=15]
+[ext_resource path="res://my_objects/object_10.tscn" type="PackedScene" id=16]
+
+[node name="items" type="Node2D"]
+
+[node name="node_objet_11_inv" parent="." index="0" instance=ExtResource( 1 )]
+
+position = Vector2( -1095.71, 817.389 )
+scale = Vector2( 0.209671, 0.230905 )
+events_path = "res://my_objects/object_11_inv.esc"
+global_id = "object_11_inv"
+
+[node name="node_objet_12_inv" parent="." index="1" instance=ExtResource( 2 )]
+
+position = Vector2( -979.706, 819.547 )
+scale = Vector2( 0.240809, 0.267086 )
+events_path = "res://my_objects/object_12_inv.esc"
+global_id = "object_12_inv"
+
+[node name="node_objet_13_inv" parent="." index="2" instance=ExtResource( 3 )]
+
+position = Vector2( -837.489, 807.354 )
+scale = Vector2( 0.297217, 0.229811 )
+events_path = "res://my_objects/object_13_inv.esc"
+global_id = "object_13_inv"
+
+[node name="node_objet_14_inv" parent="." index="3" instance=ExtResource( 4 )]
+
+position = Vector2( -612.328, 822.34 )
+scale = Vector2( 0.353909, 0.318765 )
+events_path = "res://my_objects/object_14_inv.esc"
+global_id = "object_14_inv"
+
+[node name="node_objet_15_inv" parent="." index="4" instance=ExtResource( 5 )]
+
+position = Vector2( -738.341, 823.468 )
+scale = Vector2( 0.239362, 0.20211 )
+events_path = "res://my_objects/object_15_inv.esc"
+global_id = "object_15_inv"
+
+[node name="node_objet_16_inv" parent="." index="5" instance=ExtResource( 6 )]
+
+position = Vector2( -501.627, 816.982 )
+scale = Vector2( 0.450399, 0.35983 )
+events_path = "res://my_objects/object_16_inv.esc"
+global_id = "object_16_inv"
+
+[node name="node_objet_01_inv" parent="." index="6" instance=ExtResource( 7 )]
+
+position = Vector2( -1075.56, 697.275 )
+scale = Vector2( 0.21688, 0.218874 )
+events_path = "res://my_objects/object_01_inv.esc"
+global_id = "object_01_inv"
+
+[node name="node_objet_02_inv" parent="." index="7" instance=ExtResource( 8 )]
+
+position = Vector2( -1202.42, 817.794 )
+scale = Vector2( 0.200736, 0.1814 )
+global_id = "object_02_inv"
+
+[node name="node_objet_03_inv" parent="." index="8" instance=ExtResource( 9 )]
+
+position = Vector2( -585.547, 687.355 )
+scale = Vector2( 0.199284, 0.176836 )
+events_path = "res://my_objects/object_03_inv.esc"
+global_id = "object_03_inv"
+
+[node name="node_objet_04_inv" parent="." index="9" instance=ExtResource( 10 )]
+
+position = Vector2( -785.701, 686.537 )
+scale = Vector2( 0.181093, 0.214273 )
+events_path = "res://my_objects/object_04_inv.esc"
+global_id = "object_04_inv"
+
+[node name="node_objet_05_inv" parent="." index="10" instance=ExtResource( 11 )]
+
+position = Vector2( -473.527, 685.109 )
+scale = Vector2( 0.223077, 0.210313 )
+events_path = "res://my_objects/object_05_inv.esc"
+global_id = "object_05_inv"
+
+[node name="node_objet_06_inv" parent="." index="11" instance=ExtResource( 12 )]
+
+position = Vector2( -871.13, 695.581 )
+scale = Vector2( 0.17182, 0.178978 )
+_sections_unfolded = [ "Material", "Pause", "Transform", "Visibility", "Z Index" ]
+events_path = "res://my_objects/object_06_inv.esc"
+global_id = "object_06_inv"
+
+[node name="node_objet_07_inv" parent="." index="12" instance=ExtResource( 13 )]
+
+position = Vector2( -1016.87, 693.777 )
+scale = Vector2( 0.226227, 0.228163 )
+events_path = "res://my_objects/object_07_inv.esc"
+global_id = "object_07_inv"
+
+[node name="node_objet_08_inv" parent="." index="13" instance=ExtResource( 14 )]
+
+position = Vector2( -696.278, 681.802 )
+scale = Vector2( 0.211914, 0.215989 )
+events_path = "res://my_objects/object_08_inv.esc"
+global_id = "object_08_inv"
+
+[node name="node_objet_09_inv" parent="." index="14" instance=ExtResource( 15 )]
+
+position = Vector2( -946.005, 686.716 )
+scale = Vector2( 0.194062, 0.215219 )
+events_path = "res://my_objects/object_09_inv.esc"
+global_id = "object_09_inv"
+
+[node name="node_objet_10_inv" parent="." index="15" instance=ExtResource( 16 )]
+
+position = Vector2( -1129.21, 689.325 )
+scale = Vector2( 0.223832, 0.225908 )
+events_path = "res://my_objects/object_10_inv.esc"
+global_id = "object_10_inv"
+
+

@@ -1,0 +1,12 @@
+:use
+say door_05_b "Vous vous glisser dans le trou de l'autel-téléporteur."
+change_scene "res://my_rooms/room_04.tscn"
+
+:look
+say door_05_b "Un autel-téléporteur sans technologie. Fonctionne à la magie plutôt qu'à la science."
+
+:pick_up
+say door_05_b "Ceci trop encombrant, tu ne peux pas le mettre dans ta poche."
+
+:talk
+say door_05_b "Vous : est-ce que quelqu'un peut me garantir qu'un téléporteur magique plutôt que technologique est parfaitement sûr ?"

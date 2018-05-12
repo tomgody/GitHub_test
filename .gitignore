@@ -1,0 +1,4 @@
+.import/
+logs/
+*.import
+*.translation

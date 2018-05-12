@@ -1,0 +1,15 @@
+
+:look
+say object_07 "Il est écrit : Météo : Il fait beau partout, excepté dans les environs de l'usine de Monsieur Croco."
+ 
+:use
+say object_07 "Vous utilisez le papier pour en faire des origamis. Une cocotte, puis un biolézard, puis un robot géant et enfin un gratte-ciel grandeur nature."
+say object_06 "Vous redonnez remettez enfin le papier à plat pour le rendre plus lisible."
+ 
+:pick_up
+say object_07 "Vous prenez le papier."
+set_global i/object_07_inv true
+set_active object_07 false
+ 
+:talk
+say object_07 "Vous économisez votre souffle, car cet objet ne pourra pas vous répondre."

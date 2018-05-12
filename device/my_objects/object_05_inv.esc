@@ -1,0 +1,10 @@
+:look
+> 
+	say object_05_inv "mon object_05 est bien dans l'inventaire..."
+#
+
+:use
+> 
+	say object_05_inv "vous voulez utilisez l'object_05 sur..."
+	set_global object_05_inv_use true
+#

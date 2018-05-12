@@ -1,0 +1,15 @@
+
+:look
+say object_03 "Un cadeau oublié par le père noël lors de la tournée de 1982."
+ 
+:pick_up
+say object_03 "Vous prenez le cadeau même s'il ne vous appartient pas... ce n'est pas très gentil."
+set_global i/object_03_inv true
+set_active object_03 false
+
+:talk
+say object_03 "Vous économisez votre souffle, car cet objet ne pourra pas vous répondre."
+
+:use
+say object_03 "Vous ouvrez le cadeau. Il contient un trou de gruyère. Un modèle de collection, c'est extrêmement rare."
+set_active object_03 false
