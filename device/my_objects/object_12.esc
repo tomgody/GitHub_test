@@ -1,0 +1,14 @@
+
+:look
+say object_12 "Ces fleurs produisent beaucoup de pollens..."
+ 
+:use
+say object_12 "Vous ne voyez pas comment utilisez ces fleurs."
+ 
+:pick_up
+say object_12 "Vous arrachez ces fleurs pour limiter la prolifération de pollens allergisants."
+set_global i/object_12_inv true
+set_active object_12 false
+
+:talk
+say object_12 "Vous économisez votre souffle, car cet objet ne pourra pas vous répondre."

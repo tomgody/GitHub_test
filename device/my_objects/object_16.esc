@@ -1,0 +1,14 @@
+
+:look
+say object_16 "Une ventoline, parfait pour calmer une crise d'asthme."
+ 
+:use
+say object_16 "Vous ne faites pas de crise d'asthme et ne voulez donc pas utiliser la ventoline. Quelqu'un d'autre pourrait peut-être en avoir besoin ?"
+ 
+:pick_up
+say object_16 "Vous prenez la ventoline."
+set_global i/object_16_inv true
+set_active object_16 false
+
+:talk
+say object_16 "Vous économisez votre souffle, car cet objet ne pourra pas vous répondre."

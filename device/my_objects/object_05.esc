@@ -1,0 +1,15 @@
+
+:look
+say object_05 "C'est un oeuf ou une poule ? Non ! C'est un Pouloeuf !"
+ 
+:use
+say object_05 "Vous préférez ne pas toucher à ce Pouloeuf, c'est bien trop fragile... et aggressif."
+ 
+:pick_up
+say object_05 "Vous prenez le pouloeuf."
+set_global i/object_05_inv true
+set_active object_05 false
+ 
+:talk
+say object_05 "Vous économisez votre souffle, car cet objet ne pourra pas vous répondre."
+

@@ -1,0 +1,12 @@
+:use
+say door_01_b "Vous vous glissez dans la porte."
+change_scene "res://my_rooms/room_01.tscn"
+
+:look
+say door_01_b "Une porte taillée dans un arbre par une ancienne civilisation"
+
+:pick_up
+say door_01_b "Ceci trop encombrant, tu ne peux pas le mettre dans ta poche."
+
+:talk
+say door_01_b "Il parait que parler aux plantes les aides à rester en bonne santé. Mais vous vous sentez un peu timide."

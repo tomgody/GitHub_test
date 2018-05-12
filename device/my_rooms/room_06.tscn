@@ -1,0 +1,77 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://globals/scene.gd" type="Script" id=1]
+[ext_resource path="res://my_sprites/sprites_room/bg_ciel.jpg" type="Texture" id=2]
+[ext_resource path="res://globals/background.gd" type="Script" id=3]
+[ext_resource path="res://globals/game.tscn" type="PackedScene" id=4]
+[ext_resource path="res://my_sprites/sprites_room/pf_06.png" type="Texture" id=5]
+[ext_resource path="res://my_doors/door_07_a.tscn" type="PackedScene" id=6]
+[ext_resource path="res://my_doors/door_06_b.tscn" type="PackedScene" id=7]
+[ext_resource path="res://my_objects/object_06.tscn" type="PackedScene" id=8]
+[ext_resource path="res://my_pnj/pnj_07.tscn" type="PackedScene" id=9]
+
+[node name="node_room_02" type="Node2D"]
+
+script = ExtResource( 1 )
+events_path = ""
+
+[node name="bg_ciel" type="Sprite" parent="." index="0"]
+
+position = Vector2( 487.458, 265.581 )
+scale = Vector2( 0.521867, 0.519632 )
+texture = ExtResource( 2 )
+
+[node name="background" type="TextureRect" parent="." index="1"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 40.0
+margin_bottom = 40.0
+rect_pivot_offset = Vector2( 0, 0 )
+mouse_filter = 1
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+stretch_mode = 0
+script = ExtResource( 3 )
+action = "walk"
+
+[node name="game" parent="." index="2" instance=ExtResource( 4 )]
+
+[node name="pf_06" type="Sprite" parent="." index="3"]
+
+position = Vector2( 508.462, 521.47 )
+scale = Vector2( 0.400127, 0.305391 )
+texture = ExtResource( 5 )
+
+[node name="node_door_07_a" parent="." index="4" instance=ExtResource( 6 )]
+
+position = Vector2( 786.384, 216.22 )
+scale = Vector2( 0.668082, 0.679438 )
+
+[node name="node_door_06_b" parent="." index="5" instance=ExtResource( 7 )]
+
+position = Vector2( 217.976, 184.702 )
+scale = Vector2( 0.521524, 0.557487 )
+
+[node name="node_objet_06" parent="." index="6" instance=ExtResource( 8 )]
+
+position = Vector2( 324, 289 )
+scale = Vector2( 0.1875, 0.1875 )
+
+[node name="node_pnj_07" parent="." index="7" instance=ExtResource( 9 )]
+
+position = Vector2( 445.07, 202.5 )
+scale = Vector2( 0.42408, 0.453125 )
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." index="8"]
+
+stream = null
+volume_db = 0.0
+autoplay = true
+mix_target = 0
+bus = "Master"
+
+

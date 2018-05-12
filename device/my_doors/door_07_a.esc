@@ -1,0 +1,12 @@
+:use
+say door_07_a "Les lames du mixeur-téléporteur s'apprêtent à se mettre en marche. Vous vous demandez si l'appareil va correctement fonctionner."
+change_scene "res://my_rooms/room_01.tscn"
+
+:look
+say door_07_a "Un ancien mixeur reconverti en téléporteur. L'ancienne fonction n'est pas complètement désactivée."
+
+:pick_up
+say door_07_a "Ceci trop encombrant, tu ne peux pas le mettre dans ta poche."
+
+:talk
+say door_07_a "Vous: J'ai toujours voulu que mon mixeur-broyeur-incinérateur fasse en plus téléporteur."

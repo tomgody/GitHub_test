@@ -1,0 +1,32 @@
+:talk
+> [first_talk_done_pnj_04]
+	say pnj_04 "Croco : Tu m'as bien fait réfléchir, j'ai trouvé des solutions pour rendre mon usine propre. Dorénavant l'air sera moins pollué !"
+#
+
+> [! first_talk_done_pnj_04]
+	say pnj_04 "Croco : hé c'est une propriété privé ici ! Tu n'as pas le droit de venir !"
+	say pnj_04 "Vous : Ah, autant pour moi. Mais je suis juste venu pour discuter avec vous."
+	say pnj_04 "Croco : Je n'ai aucune envie de discuter avec vous ! Je ne vous connais même pas."
+	say pnj_04 "Vous : Je suis un ami, et vous? Qui êtes vous ?"
+	say pnj_04 "Croco : Je m'appelle Monsieur Croco. Je suis le patron de cette usine, tout ce qui est ici est à moi !"
+	say pnj_04 "Vous : Enchanté Monsieur Croco. Maintenant que l'on se connait, est-ce qu'on peut discuter ?"
+	say pnj_04 "Croco : Et bien... ok, mais cinq minutes pas plus. J'ai du travail à finir !"
+	say pnj_04 "Vous : Je voulais juste savoir, si vous aviez des problèmes pour respirer.
+	say pnj_04 "Croco : Hein ? Pourquoi me demandes tu ça ? C'est à cause de l'usine c'est ça ? Et bien non ! Je suis en parfaite santé ! L'air est pur ici."
+	say pnj_04 "Vous : Hum, votre usine... la fumée qui sort des cheminées a une drôle de couleur. Êtes vous sûr qu'elle ne pollue pas ?"
+	say pnj_04 "Croco : Bien evidemment ! Regarde moi, je respire la santé !"
+	say pnj_04 "Vous : Oui mais... certaines personnes ont des problèmes pour respirer... Peut être que si votre usine rejetait moins de pollution, ce serait mieux pour eux ?"
+	say pnj_04 "Croco : Comment oses tu ? Mon usine est parfaite, PARFAITE !"
+	say pnj_04 "Vous : je ne dit pas ça... juste qu'elle pourrait être encore mieux !
+	say pnj_04 "Croco : Tu veux dire... Encore mieux que parfaite ? C'est possible ?"
+	say pnj_04 "Vous : Oui, il suffirait qu'elle ne pollue plus. La qualité de l'air serait bien meilleure et tout le monde serait content !
+	say pnj_04 "Croco : vu comme ça... Il est vrai que c'est tentant. Je vais voir ce que je peux faire..."
+	say pnj_04 "Vous : Merci Monsieur Croco ! Au revoir."
+	set_global first_talk_done_pnj_04 true
+#
+		
+:pick_up
+say pnj_04 "pas touche!"
+
+:look
+say pnj_04 "Un crocodile, bipède et en costume. Rien d'inhabituel, vraiment."

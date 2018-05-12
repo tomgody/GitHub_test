@@ -1,0 +1,12 @@
+:use
+say door_02_b "Vous ouvrez la porte du téléporteur et actionnez ses commandes..."
+change_scene "res://my_rooms/room_02.tscn"
+
+:look
+say door_02_b "Cette porte ressemble fortement à un oeuf..."
+
+:pick_up
+say door_02_b "Ceci est une porte, tu ne peut pas la mettre dans ta poche."
+
+:talk
+say door_02_b "Vous : On ne sait pas qui de l'oeuf et la poule est le premier mais à vous voir, on sait qui est le dernier."

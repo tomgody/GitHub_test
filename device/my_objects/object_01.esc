@@ -1,0 +1,16 @@
+
+:look
+say object_01 "Ceci n'est pas un Élixir d'amour. Merci d'aller voir ailleurs."
+#
+  
+:pick_up
+say object_01 "Vous prenez cette fiole qui n'est pas un élixir d'amour."
+set_global i/object_01_inv true
+set_active object_01 false
+#
+ 
+:talk
+say object_01 "Vous économisez votre souffle, car cet objet ne pourra pas vous répondre."
+
+:use
+say object_01 "Vous ne voulez pas boire cet Élixir. Ce n'est pas un Élixir d'amour mais c'est peut-être une forme de poison."

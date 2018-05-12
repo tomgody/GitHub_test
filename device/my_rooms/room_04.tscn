@@ -1,0 +1,91 @@
+[gd_scene load_steps=12 format=2]
+
+[ext_resource path="res://globals/scene.gd" type="Script" id=1]
+[ext_resource path="res://my_sprites/sprites_others/ciel7.jpg" type="Texture" id=2]
+[ext_resource path="res://globals/background.gd" type="Script" id=3]
+[ext_resource path="res://globals/game.tscn" type="PackedScene" id=4]
+[ext_resource path="res://my_sprites/sprites_room/pf_04.png" type="Texture" id=5]
+[ext_resource path="res://my_doors/door_05_a.tscn" type="PackedScene" id=6]
+[ext_resource path="res://my_doors/door_03_b.tscn" type="PackedScene" id=7]
+[ext_resource path="res://my_objects/object_04.tscn" type="PackedScene" id=8]
+[ext_resource path="res://my_objects/object_09.tscn" type="PackedScene" id=9]
+[ext_resource path="res://my_pnj/pnj_08.tscn" type="PackedScene" id=10]
+[ext_resource path="res://my_objects/object_11.tscn" type="PackedScene" id=11]
+
+[node name="node_room_02" type="Node2D"]
+
+position = Vector2( 7.16833, -2.85268 )
+script = ExtResource( 1 )
+events_path = ""
+
+[node name="ciel7" type="Sprite" parent="." index="0"]
+
+position = Vector2( 474.264, 268.675 )
+scale = Vector2( 0.822565, 0.714003 )
+texture = ExtResource( 2 )
+
+[node name="background" type="TextureRect" parent="." index="1"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 40.0
+margin_bottom = 40.0
+rect_pivot_offset = Vector2( 0, 0 )
+mouse_filter = 1
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+stretch_mode = 0
+script = ExtResource( 3 )
+action = "walk"
+
+[node name="game" parent="." index="2" instance=ExtResource( 4 )]
+
+[node name="pf_04" type="Sprite" parent="." index="3"]
+
+position = Vector2( 484.34, 351.879 )
+scale = Vector2( 0.367566, 0.324196 )
+texture = ExtResource( 5 )
+
+[node name="node_door_05_a" parent="." index="4" instance=ExtResource( 6 )]
+
+position = Vector2( 137.452, 100.864 )
+scale = Vector2( 0.54805, 0.482152 )
+
+[node name="node_door_03_b" parent="." index="5" instance=ExtResource( 7 )]
+
+position = Vector2( 589.423, 362.137 )
+scale = Vector2( 0.361757, 0.316801 )
+
+[node name="node_objet_04" parent="." index="6" instance=ExtResource( 8 )]
+
+position = Vector2( 274.5, 82.5 )
+scale = Vector2( 0.171875, 0.171875 )
+
+[node name="node_objet_09" parent="." index="7" instance=ExtResource( 9 )]
+
+position = Vector2( 710.5, 353 )
+scale = Vector2( -0.171875, 0.21875 )
+
+[node name="node_pnj_08" parent="." index="8" instance=ExtResource( 10 )]
+
+position = Vector2( 430.243, 184.512 )
+scale = Vector2( 0.350963, 0.375 )
+global_id = "pnj_08"
+
+[node name="node_objet_11" parent="." index="9" instance=ExtResource( 11 )]
+
+position = Vector2( 549.512, 185.512 )
+scale = Vector2( 0.4375, 0.4375 )
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." index="10"]
+
+stream = null
+volume_db = 0.0
+autoplay = true
+mix_target = 0
+bus = "Master"
+
+

@@ -1,0 +1,12 @@
+:use
+say door_03_b "Vous surmontez votre peur du noir et descendez cette échelle..."
+change_scene "res://my_rooms/room_02.tscn"
+
+:look
+say door_03_b "Une légende raconte que ce trou emmène à l'autre bout du monde."
+
+:pick_up
+say door_03_b "Ceci trop encombrant, tu ne peux pas le mettre dans ta poche."
+
+:talk
+say door_03_b "Vous : alllôooo ? Il y a quelqu'un au fond tu trou ?"

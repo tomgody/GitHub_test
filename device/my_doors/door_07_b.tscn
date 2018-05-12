@@ -1,0 +1,58 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://globals/item.gd" type="Script" id=1]
+[ext_resource path="res://my_sprites/sprites_doors/door_07.png" type="Texture" id=2]
+[ext_resource path="res://my_sprites/sprites_others/ombre.png" type="Texture" id=3]
+
+[node name="node_door_07_b" type="Node2D" index="0"]
+
+position = Vector2( 4.5, 7 )
+scale = Vector2( 1.14063, 1.21875 )
+script = ExtResource( 1 )
+animations = null
+speed = 300
+scale_on_map = false
+light_on_map = false
+tooltip = ""
+action = ""
+events_path = "res://my_doors/door_07_b.esc"
+global_id = "door_07_b"
+use_combine = false
+inventory = false
+use_action_menu = true
+interact_angle = -1
+talk_animation = "talk"
+active = true
+placeholders = {
+
+}
+use_custom_z = false
+
+[node name="area" type="Control" parent="." index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = -103.0
+margin_top = -94.0
+margin_right = 92.0
+margin_bottom = 81.0
+rect_pivot_offset = Vector2( 0, 0 )
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+
+[node name="door_07" type="Sprite" parent="." index="1"]
+
+position = Vector2( -20.5, -58 )
+texture = ExtResource( 2 )
+
+[node name="ombre" type="Sprite" parent="." index="2"]
+
+position = Vector2( -0.29767, 69.0589 )
+scale = Vector2( 0.595358, 0.548976 )
+texture = ExtResource( 3 )
+
+

@@ -1,0 +1,73 @@
+:talk
+> [first_talk_done_pnj_09, ! pantin_ventoline]
+	say pnj_09 "Pantin: Kof, kof..."
+#
+
+> [! first_talk_done_pnj_09, ! pantin_ventoline]
+	say pnj_09 "Pantin: Qu'est-ce que tu me veux ?! On ne peut plus être tranquille de nos jours..."
+	say pnj_09 "Vous: Est-ce que je peux te poser une toute petite question ?"
+	say pnj_09 "Pantin: Bof, pas vraiment envie mais vas y... Tentes toujours !"
+	say pnj_09 "Vous: Est ce que tu es asthmatique ?"
+	say pnj_09 "Pantin: Moi ? Asthmatique ? Ahaha.. Kof, kof, jamais de la vie !"
+	say pnj_09 "Vous: Tu es sûr ? Pourtant on dirait... Tu as du mal à respirer ?"
+	say pnj_09 "Pantin: Un peu... Mais, ce n'est rien ! Kof, kof."
+	say pnj_09 "Vous: Tu tousses souvent ?"
+	say pnj_09 "Pantin: Ah, mais ça va je te dit ! Laisse moi tranquille !"
+	say pnj_09 "Vous: Ca n'a pas l'air d'aller... En plus, tu siffles du nez !"
+	say pnj_09 "Pantin: Oui, bon ça va... Je suis asthmatique, je sais. C'est pas la fin du monde ! Kof, kof..."
+	say pnj_09 "Vous: Je me disais aussi, j'espère que tu fais attention."
+	say pnj_09 "Pantin: Attention à quoi ? Je vis ma vie comme je l'entend !"
+	say pnj_09 "Vous: Mais c'est important ! Ta santé en dépend..."
+	say pnj_09 "Pantin: Allons bon ! Je n'ai pas de leçon à reçevoir d'un enfant !"
+	say pnj_09 "Vous: ... pour mieux respirer !"
+	say pnj_09 "Pantin: Je respire très bien comme ça ! Kof, kof..."
+	say pnj_09 "Vous: J'ai du mal à te croire..."
+	say pnj_09 "Pantin: Tu me fatigues !"
+	say pnj_09 "Vous: Tu utilises ta ventoline ?"
+	say pnj_09 "Pantin: Non..."
+	say pnj_09 "Vous: Comment ça ?! Mais c'est important !"
+	say pnj_09 "Pantin: Ca ne te regarde pas !"
+	say pnj_09 "Vous: Ta santé en dépend !"
+	say pnj_09 "Pantin: Bon... Ok, mais tu ne le dis à personne."
+	say pnj_09 "Vous: Promis !"
+	say pnj_09 "Pantin: Je ne sais pas l'utiliser correctement..."
+	say pnj_09 "Vous: Ah ! Mais il fallait le dire plus tôt !"
+	say pnj_09 "Pantin: Pourquoi ? Tu... Tu sais comment faire ?"
+	say pnj_09 "Vous: En fait, c'est super simple !"
+	say pnj_09 "Vous: 1- Enlever le capuchon"
+	say pnj_09 "Vous: 2- Secouer"
+	say pnj_09 "Vous: 3- Expirer"
+	say pnj_09 "Vous: 4- Appuyer et inspirer"
+	say pnj_09 "Vous: 5- Retiens ta respiration pendant 10 secondes"
+	say pnj_09 "Vous: 6- Expirer et se rincer la bouche"
+	say pnj_09 "Pantin: C'est tout ? Mais... je m'attendais à quelques chose de beaucoup plus complexe !"
+	say pnj_09 "Pantin: Je m'attendais à autre chose..."
+	say pnj_09 "Pantin: En fait, il suffit de secouer, appuyer tout en inspirant, puis de retenir sa respiration pendant cinq minutes avant d'expirer et de se rincer la bouche."
+	say pnj_09 "Pantin: Waouh ! Depuis tout ce temps, j'était dans l'érreur, c'est super simple !"
+	say pnj_09 "Pantin: Ok, dorénavant, je vais bien appliquer tes conseils à la lettre. Finalement, je suis content d'avoir discuté avec toi, ça en valait la peine."
+	set_global first_talk_done_pnj_09 true
+#
+
+> [pantin_ventoline, ! feu_eteint]
+	say pnj_09 "Pantin: Je me sens beaucoup mieux. Ça... change la vie, vraiment. Mais je sens que la qualité de l'air est mauvaise..."
+	say pnj_09 "Pantin: Je vais probablement encore me sentir mal dans peu de temps."
+#
+
+> [pantin_ventoline, feu_eteint]
+	say pnj_09 "Pantin: ça va beaucoup mieux. Je sens aussi que la qualité de l'air s'est un peu amélioré, même s'il reste des particules de pollution."
+#
+		
+:pick_up
+say pnj_09 "pas touche!"
+
+:look
+say pnj_09 "Au premier regard, on dirait un humain, mais c'est un pantin. Il a l'air un peu triste et fatigué."
+
+:use
+> [object_10_inv_use]
+	say pnj_09 "Vous donnez la ventoline à Pantin."
+	say pnj_09 "Pantin: J'ai bien retenu comment l'utiliser. Capuchon-secouer-expirer-appuyer-inspirer-bloquer-expirer-rincer."
+	say pnj_09 "Pantin: Je me sens mieux... pour l'instant, mais l'air étant toujours pollué, je vais probablement retomber malade bientôt."
+	say pnj_09 "Pantin: Tiens, c'est ta ventoline. Je l'aurai bien gardé mais elle peut servir à d'autres."
+	set_global pantin_ventoline true
+#

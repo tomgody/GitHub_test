@@ -1,0 +1,12 @@
+
+:look
+say object_15 "Voilà une usine qui pollue beaucoup..."
+ 
+:use
+say object_15 "Difficile de savoir comment utiliser cette usine."
+ 
+:pick_up
+say object_15 "Ceci est une usine, vous ne pouvez pas mettre un bâtiment dans votre poche."
+
+:talk
+say object_15 "Vous économisez votre souffle, car cet objet ne pourra pas vous répondre."

@@ -1,0 +1,13 @@
+:look
+say object_02 "C'est peut être du beurre de cacahouette, ou peut être un pot de mayonnaise... personne ne semble savoir, d'où le point d'interrogation... Je vous déconseille de manger ce produit."
+
+:pick_up
+say object_02 "Vous prenez le flacon... Je vous déconseille de manger ce produit."
+set_global i/object_02_inv true
+set_active object_02 false
+
+:talk
+say object_02 "Vous économisez votre souffle, car cet objet ne pourra pas vous répondre."
+
+:use
+say object_02 "Vous ne voulez pas manger cette... substance ? C'est peut-être toxique."
