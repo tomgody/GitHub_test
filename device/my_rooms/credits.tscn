@@ -1,7 +1,8 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://my_scripts/intro_button.gd" type="Script" id=1]
-[ext_resource path="res://my_fonts/MADE Evolve Sans Regular (PERSONAL USE).ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://my_rooms/Node2D.gd" type="Script" id=2]
+[ext_resource path="res://my_fonts/MADE Evolve Sans Regular (PERSONAL USE).ttf" type="DynamicFontData" id=3]
 
 [sub_resource type="StyleBoxFlat" id=1]
 
@@ -95,48 +96,16 @@ _sections_unfolded = [ "Border", "Border Width", "Corner Radius", "Shadow" ]
 size = 25
 use_mipmaps = false
 use_filter = false
-font_data = ExtResource( 2 )
+font_data = ExtResource( 3 )
 _sections_unfolded = [ "Font", "Settings" ]
 
 [node name="node_intro" type="Node2D" index="0"]
 
-position = Vector2( 0, 1 )
+position = Vector2( -11, 1 )
 script = ExtResource( 1 )
+_sections_unfolded = [ "Material", "Visibility" ]
 
-[node name="accueil" type="Button" parent="." index="0"]
-
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 0.0
-anchor_bottom = 0.0
-margin_left = 348.0
-margin_top = 434.0
-margin_right = 611.0
-margin_bottom = 489.0
-rect_pivot_offset = Vector2( 0, 0 )
-focus_mode = 2
-mouse_filter = 0
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
-custom_styles/hover = SubResource( 1 )
-custom_styles/pressed = SubResource( 2 )
-custom_styles/normal = SubResource( 3 )
-custom_fonts/font = SubResource( 4 )
-custom_colors/font_color_disabled = Color( 0, 0, 0, 1 )
-custom_colors/font_color = Color( 0, 0, 0, 1 )
-custom_colors/font_color_hover = Color( 0, 0, 0, 1 )
-custom_colors/font_color_pressed = Color( 0, 0, 0, 1 )
-toggle_mode = false
-enabled_focus_mode = 2
-shortcut = null
-group = null
-text = "ACCUEIL"
-flat = false
-align = 1
-_sections_unfolded = [ "custom_colors", "custom_fonts", "custom_styles" ]
-
-[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." index="1"]
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." index="0"]
 
 stream = null
 volume_db = 0.0
@@ -144,22 +113,29 @@ autoplay = true
 mix_target = 0
 bus = "Master"
 
-[node name="TextEdit" type="TextEdit" parent="." index="2"]
+[node name="Node2D" type="Node2D" parent="." index="1"]
+
+editor/display_folded = true
+position = Vector2( -35.2105, -6.57901 )
+script = ExtResource( 2 )
+moveUpSpeed = -0.5
+
+[node name="Label" type="Label" parent="Node2D" index="0"]
 
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 42.0
-margin_top = 30.0
-margin_right = 929.0
-margin_bottom = 407.0
+margin_left = 82.0
+margin_top = 529.0
+margin_right = 949.0
+margin_bottom = 1087.0
 rect_pivot_offset = Vector2( 0, 0 )
-focus_mode = 2
-mouse_filter = 0
+rect_clip_content = false
+mouse_filter = 2
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
-size_flags_vertical = 1
+size_flags_vertical = 4
 text = "AsthmaGlitch
 
 Programmation & Design : 
@@ -192,21 +168,61 @@ Musiques :
 	image31_s ambient pad.wav par Karma-Ron - https://freesound.org/people/Karma-Ron/sounds/240622/
 	
 Merci à tous les contributeurs pour l'organisation de la GameJam Open Geneva."
-readonly = false
-highlight_current_line = false
-syntax_highlighting = false
-show_line_numbers = false
-highlight_all_occurrences = false
-override_selected_font_color = false
-context_menu_enabled = true
-smooth_scrolling = false
-v_scroll_speed = 80.0
-hiding_enabled = 0
-wrap_lines = false
-caret_block_mode = false
-caret_blink = false
-caret_blink_speed = 0.65
-caret_moving_by_right_click = true
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Panel" type="Panel" parent="." index="2"]
+
+modulate = Color( 0, 0, 0, 1 )
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = -91.0
+margin_top = 464.0
+margin_right = 1059.0
+margin_bottom = 539.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+
+[node name="accueil" type="Button" parent="." index="3"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 353.0
+margin_top = 473.0
+margin_right = 616.0
+margin_bottom = 528.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+custom_styles/hover = SubResource( 1 )
+custom_styles/pressed = SubResource( 2 )
+custom_styles/normal = SubResource( 3 )
+custom_fonts/font = SubResource( 4 )
+custom_colors/font_color_disabled = Color( 0, 0, 0, 1 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color_hover = Color( 0, 0, 0, 1 )
+custom_colors/font_color_pressed = Color( 0, 0, 0, 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "ACCUEIL"
+flat = false
+align = 1
+_sections_unfolded = [ "custom_colors", "custom_fonts", "custom_styles" ]
 
 [connection signal="pressed" from="accueil" to="." method="_on_accueil_pressed"]
 

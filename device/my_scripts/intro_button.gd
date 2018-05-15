@@ -17,3 +17,7 @@ func _on_Credits_pressed():
 
 func _on_accueil_pressed():
 	get_tree().change_scene("res://my_rooms/intro.tscn")	
+
+func _on_Quit_pressed():
+	get_tree().set_auto_accept_quit(false)
+	get_tree().quit()

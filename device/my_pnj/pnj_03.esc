@@ -4,27 +4,10 @@
 #
 
 > [! first_talk_done_pnj_03]
-	say pnj_03 "Hibou: Bonjour l’ami, tu es nouveau n’est ce pas ?"
-	say pnj_03 "Hibou: Si tu as besoin de quoi que ce soit, n'hésite pas à me faire signe."
-	say pnj_03 "Hibou: Je connais bien les environs."
-	say pnj_03 "Vous: Volontier !"
-	say pnj_03 "Hibou: Tu es dans le royaume d'AsthmaGlitch."
-	say pnj_03 "Hibou: Tu vas voir, c'est un bel endroit si ce n'est que..."
-	say pnj_03 "Hibou: ... beaucoup de personnes sont malades ici."
-	say pnj_03 "Vous: Comment ça ?"
-	say pnj_03 "Hibou: Oui, il y a beaucoup d'asthmatiques par ici."
-	say pnj_03 "Hibou: L'asthme est une maladie des voies respiratoires."
-	say pnj_03 "Hibou: Lorsqu'une personne est asthmatique, elle a des « crises d'asthme » pendant lesquelles elle a du mal à respirer." 
-	say pnj_03 "Hibou: Cette maladie touche 1 enfant sur 10 en France."
-	say pnj_03 "Vous: Mince alors !"
-	say pnj_03 "Hibou: Oui, mais heureusement, l'asthme se soigne."
-	say pnj_03 "Hibou: Seulement il faut reconnaître les symptômes afin de pouvoir déceler la maladie."
-	say pnj_03 "Hibou: Veux-tu les en apprendre plus ?"
-	say pnj_03 "Vous: Oui !"
-	say pnj_03 "Hibou: L’asthme se manifeste par des épisodes de gêne respiratoire comme des essoufflements..."
-	say pnj_03 "Hibou: ... une respiration sifflante..."
-	say pnj_03 "Hibou: ... une toux sèche..."
-	say pnj_03 "Hibou: ... ou des sensations d’oppression dans la poitrine."
+	say pnj_03 "Hibou: Bonjour l’ami, tu es nouveau n’est ce pas ? Tu es dans le royaume d'AsthmaGlitch. Tu vas voir, c'est un bel endroit si ce n'est que..."
+	say pnj_03 "Hibou: ... beaucoup de personnes sont malades ici. Oui, il y a beaucoup de personnes qui ont de l'asthme, une maladie des voies respiratoires."
+	say pnj_03 "Hibou: Cette maladie touche 1 enfant sur 10 en France. Heureusement, l'asthme se soigne mais il faut reconnaître les symptômes afin de pouvoir déceler la maladie."
+	say pnj_03 "Hibou: L’asthme se manifeste une gêne respiratoire comme des essoufflements, une respiration sifflante, une toux sèche ou des sensations d’oppression dans la poitrine."
 	set_global first_talk_done_pnj_03 true
 #
 		

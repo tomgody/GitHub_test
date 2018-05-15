@@ -4,17 +4,9 @@
 #
 
 > [! first_talk_done_pnj_01]
-	say pnj_01 "Bambou : Salut toi, t'es qui?"
-	say pnj_01 "Vous : Un ami de Cochon et Hibou. Tu es bien Bambou ?"
-	say pnj_01 "Bambou : C'est bien moi. Que me veux tu ? Je suis occupé là..."
-	say pnj_01 "Vous : Ah, je suis désolé... je voulais juste discuter un peu, que fais-tu ?"
-	say pnj_01 "Bambou : Je vérifie la qualité de l'air,  ça ne se voit pas ?"
-	say pnj_01 "Vous : Hum non pas tellement..."
-	say pnj_01 "Bambou : Enfin bref, ce n'est pas terrible..."
-	say pnj_01 "Bambou : ... Il y a beaucoup trop de polluants."
-	say pnj_01 "Bambou : Pour les personnes asthmatiques, c'est un vrai cauchemar !"
-	say pnj_01 "Bambou : Il y a des allergènes... de la fumée... et même de la pollution !"
-	say pnj_01 "Bambou : L'air est très mauvais par ici ! Si au moins on pouvait modifier cela, mais comment ?"
+	say pnj_01 "Vous : Salut. Que fais-tu ?"
+	say pnj_01 "Bambou : Je vérifie la qualité de l'air, elle n'est pas terrible. Il y a beaucoup trop de polluants. Pour les personnes asthmatiques, c'est un vrai cauchemar !"
+	say pnj_01 "Bambou : Il y a des allergènes... de la fumée... et même de la pollution. L'air est très mauvais par ici ! Si au moins on pouvait modifier cela, mais comment ?"
 	set_global first_talk_done_pnj_01 true
 #
 		

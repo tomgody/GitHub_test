@@ -1,26 +1,13 @@
 :talk
 > [first_talk_done_pnj_05]
-	say pnj_05 "Marchand : J'adore faire des affaires avec toi, reviens quand tu veux !"
+	say pnj_05 "Marchand : Je ne savais pas que certaines plantes pouvaient générer des allergies et provoquer de l'asthme chez certaines personnes."
 #
 
 > [! first_talk_done_pnj_05]
-	say pnj_05 "Marchand : Bonjour l'ami !"
-	say pnj_05 "Vous : Bonjour ! Oh, ces fleurs sont magnifiques !"
-	say pnj_05 "Marchand : Ah ah ! Je ne vends que de la qualité, c'est ma fierté."
-	say pnj_05 "Vous : Ce sont de très belles fleurs effectivement. Je peux les sentir ?"
-	say pnj_05 "Marchand : Bien sur, les essayer c'est les acheter !"
-	say pnj_05 "Vous : Hum, elles sentent aussi bon que leur beauté le laisse présager." 
-	say pnj_05 "Marchand : Hé oui l'ami ! Comme je te l'ai dit, je ne vends que de la qualité."
-	say pnj_05 "Vous : Mais... Il y a quelque chose qui me tracasse."
-	say pnj_05 "Marchand : oh ! Quoi donc ?
-	say pnj_05 "Vous : elles produisent beaucoup de pollen... Je crains que cela ne provoque des allergies !"
-	say pnj_05 "Marchand : Ah mais ce n'est pas bon pour les affaires tout ça !"
-	say pnj_05 "Vous : Certaines personnes ici sont asthmatiques... elles auront du mal à apprecier vos fleurs !"
-	say pnj_05 "Marchand : Mais que vais-je faire ? Je vais perdre des clients !"
-	say pnj_05 "Vous : Et bien, j'ai une idée. Je vais vous acheter tout votre stock."
-	say pnj_05 "Vous : Puis, la prochaine fois vous mettrez en vente des fleurs qui ne provoquent pas d'allergies. Vos clients seront contents et tout le monde pourra bien respirer.
-	say pnj_05 "Marchand : Oh ! Ce n'est pas bête ! Je vais faire ça, c'est une bonne idée ! Pour la peine, je te les vends à moitié prix."
-	say pnj_05 "Vous : C'est un plaisir de faire affaire avec vous monsieur le marchand !"
+	say pnj_05 "Vous : Bonjour ! Oh, ces fleurs sont magnifiques, je peux les sentir ? Hum, elles sentent aussi bon que leur beauté le laisse présager." 
+	say pnj_05 "Vous : Mais... Il y a quelque chose qui me tracasse. Elles produisent beaucoup de pollen... Je crains que cela ne provoque des allergies !"
+	say pnj_05 "Vous : Certaines personnes ici sont asthmatiques... elles auront du mal à apprécier vos fleurs !"
+	say pnj_05 "Marchand : Mais que vais-je faire ? Je vais perdre des clients ! Peut-être devrions-nous les arracher ?"
 	set_global first_talk_done_pnj_05 true
 	set_active object_11 false
 #

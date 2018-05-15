@@ -5,24 +5,9 @@
 
 > [! first_talk_done_pnj_08]
 	say pnj_08 "Yéti : Je te salue l'ami, viens t'asseoir près du feu avec moi !"
-	say pnj_08 "Vous : Kof, kof... oulà on ne respire plus ici !"
-	say pnj_08 "Yéti : Oui, mais au moins on est au chaud !"
-	say pnj_08 "Vous : Je ne suis pas sûr que ce soit une bonne chose pour les personnes asthmatiques..."
-	say pnj_08 "Yéti : Ah que veux tu, on ne peux pas satisfaire tout le monde."
-	say pnj_08 "Vous : Mais cela les met en danger !"
-	say pnj_08 "Yéti : Oui mais... J'ai droit à un peu de confort moi aussi !"
-	say pnj_08 "Vous : Ce n'est pas une question de confort mais de santé."
-	say pnj_08 "Yéti : Je vais avoir froid après..."
+	say pnj_08 "Vous : Kof, kof... oulà on ne respire plus ici !Je ne suis pas sûr que ce soit une bonne chose pour les personnes asthmatiques qui sont dans les environs."
+	say pnj_08 "Yéti : Oh, je n'avais pas fait le lien entre les particules émises par mon feu et mes amis malades... Mais j'ai peur d'avoir froid si j'éteins mon feu."
 	say pnj_08 "Vous : Tu es un Yeti, tu ne peux pas avoir froid."
-	say pnj_08 "Yéti : Tu crois ?"
-	say pnj_08 "Vous : Evidemment !"
-	say pnj_08 "Yéti : Dans ce cas... oh et puis ! Je l'aime bien ce feu... Il est beau."
-	say pnj_08 "Vous : Mais tu sera seul à profiter de ce feu."
-	say pnj_08 "Yéti : Comment ça ?"
-	say pnj_08 "Vous : Les personnes asthmatiques vont être gêné par la fumée. Cela risque de leur provoquer des crises d'asthmes..."
-	say pnj_08 "Yéti : Je vais être seul ?"
-	say pnj_08 "Vous : Il y a de forte chance oui."
-	say pnj_08 "Yéti : Dans ce cas... je vais l'éteindre, ça ne me tente pas trop mais c'est pour la bonne cause !"
 	set_global first_talk_done_pnj_08 true
 	set_active object_11 false
 	set_global feu_eteint true

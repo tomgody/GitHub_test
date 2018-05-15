@@ -4,12 +4,8 @@
 #
 
 > [!first_talk_done_pnj_02, ! gloup_ventoline]
-	say pnj_02 "Gloup : Kof, kof..."
-	say pnj_02 "Vous : ça n'a pas l'air d'aller..."
-	say pnj_02 "Gloup : Kof, non pas vraiment.. J'ai beaucoup de mal à respirer."
-	say pnj_02 "Vous : hum, tu es asthmatique n'est ce pas ?"
-	say pnj_02 "Gloup : Asma-Kof, kof... quoi."
-	say pnj_02 "Vous : l'asthme est une maladie respiratoire. Je pense que tu en ai atteint. Mais ne t'inquiètes pas, je vais t'aider à te soigner !"
+	say pnj_02 "Gloup : Kof, kof... J'ai beaucoup de mal à respirer.
+	say pnj_02 "Vous : hum, tu fais de l'asthme n'est ce pas ? Je vais t'aider à te soigner !"
 	say pnj_02 "Gloup : vraiment, merci beaucoup ! Kof, kof..."
 	say pnj_02 "Vous : Il faudrait que je trouve des médicaments, une ventoline, ou un masque... Où est ce que je peux bien trouver cela ?"
 	set_global first_talk_done_pnj_02 true
